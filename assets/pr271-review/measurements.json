@@ -1,0 +1,71 @@
+{
+  "homeAssistantVersion": "2026.9.2",
+  "sunBearing": 0,
+  "sunDimming": false,
+  "measurements": [
+    {
+      "variant": "before",
+      "position": 0,
+      "errors": [],
+      "actualPosition": 0,
+      "sunBearing": 0,
+      "patches": [
+        {
+          "points": "430,100 570,100 570,444 430.00000000000006,444",
+          "fill": "url(#fp-wall-mask-0-sun-b0)"
+        },
+        {
+          "points": "670,100 810,100 810,444 670,444",
+          "fill": "url(#fp-wall-mask-0-sun-b5)"
+        }
+      ]
+    },
+    {
+      "variant": "pr271",
+      "position": 100,
+      "errors": [],
+      "actualPosition": 100,
+      "sunBearing": 0,
+      "patches": [
+        {
+          "points": "430,100 570,100 570,444 430.00000000000006,444",
+          "fill": "url(#fp-wall-mask-0-sun-b0)"
+        },
+        {
+          "points": "670,100 810,100 810,444 670,444",
+          "fill": "url(#fp-wall-mask-0-sun-b5)"
+        }
+      ]
+    },
+    {
+      "variant": "pr271",
+      "position": 50,
+      "errors": [],
+      "actualPosition": 50,
+      "sunBearing": 0,
+      "patches": [
+        {
+          "points": "465,100 535,100 535,444 465.00000000000006,444",
+          "fill": "url(#fp-wall-mask-0-sun-b0)"
+        },
+        {
+          "points": "670,100 810,100 810,444 670,444",
+          "fill": "url(#fp-wall-mask-0-sun-b5)"
+        }
+      ]
+    },
+    {
+      "variant": "pr271",
+      "position": 0,
+      "errors": [],
+      "actualPosition": 0,
+      "sunBearing": 0,
+      "patches": [
+        {
+          "points": "670,100 810,100 810,444 670,444",
+          "fill": "url(#fp-wall-mask-0-sun-b5)"
+        }
+      ]
+    }
+  ]
+}
