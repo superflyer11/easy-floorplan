@@ -1,0 +1,107 @@
+{
+  "homeAssistantVersion": "2026.9.2",
+  "measurements": [
+    {
+      "variant": "before",
+      "view": "overlay",
+      "errors": [],
+      "planWidth": 540,
+      "labels": [
+        {
+          "text": "Kitchen",
+          "left": "30.6122%",
+          "top": "49.3827%",
+          "font": "7.71429px"
+        },
+        {
+          "text": "Study",
+          "left": "70.6997%",
+          "top": "38.0952%",
+          "font": "7.71429px"
+        }
+      ],
+      "badges": [
+        {
+          "width": 22.9375,
+          "text": "22°"
+        },
+        {
+          "width": 22.9375,
+          "text": "45%"
+        }
+      ]
+    },
+    {
+      "variant": "overlay",
+      "view": "overlay",
+      "errors": [],
+      "planWidth": 540,
+      "labels": [
+        {
+          "text": "Kitchen",
+          "left": "30.6122%",
+          "top": "49.3827%",
+          "font": "11.4286px"
+        },
+        {
+          "text": "Study",
+          "left": "70.6997%",
+          "top": "38.0952%",
+          "font": "11.4286px"
+        }
+      ],
+      "badges": [
+        {
+          "width": 33.015625,
+          "text": "22°"
+        },
+        {
+          "width": 33.015625,
+          "text": "45%"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "view": "labels",
+      "errors": [],
+      "planWidth": 1000,
+      "labels": [
+        {
+          "text": "Kitchen",
+          "left": "30.6122%",
+          "top": "49.3827%",
+          "font": "20.4082px"
+        },
+        {
+          "text": "Study",
+          "left": "70.6997%",
+          "top": "38.0952%",
+          "font": "20.4082px"
+        }
+      ],
+      "badges": []
+    },
+    {
+      "variant": "labels",
+      "view": "labels",
+      "errors": [],
+      "planWidth": 1000,
+      "labels": [
+        {
+          "text": "Kitchen",
+          "left": "25.2187%",
+          "top": "47.8836%",
+          "font": "20.4082px"
+        },
+        {
+          "text": "Study",
+          "left": "73.9796%",
+          "top": "50%",
+          "font": "20.4082px"
+        }
+      ],
+      "badges": []
+    }
+  ]
+}

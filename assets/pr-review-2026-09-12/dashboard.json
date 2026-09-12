@@ -1,0 +1,414 @@
+{
+  "views": [
+    {
+      "title": "Overlay readability",
+      "path": "overlay",
+      "type": "panel",
+      "cards": [
+        {
+          "type": "custom:easy-floorplan-card",
+          "width": 980,
+          "height": 540,
+          "overlayScale": "plan",
+          "background": "#fafaf7",
+          "floors": [
+            {
+              "id": "ground",
+              "name": "Ground floor",
+              "walls": [
+                {
+                  "id": "kitchen0",
+                  "x1": 80,
+                  "y1": 120,
+                  "x2": 460,
+                  "y2": 120
+                },
+                {
+                  "id": "kitchen1",
+                  "x1": 460,
+                  "y1": 120,
+                  "x2": 460,
+                  "y2": 260
+                },
+                {
+                  "id": "kitchen2",
+                  "x1": 460,
+                  "y1": 260,
+                  "x2": 360,
+                  "y2": 260
+                },
+                {
+                  "id": "kitchen3",
+                  "x1": 360,
+                  "y1": 260,
+                  "x2": 360,
+                  "y2": 420
+                },
+                {
+                  "id": "kitchen4",
+                  "x1": 360,
+                  "y1": 420,
+                  "x2": 80,
+                  "y2": 420
+                },
+                {
+                  "id": "kitchen5",
+                  "x1": 80,
+                  "y1": 420,
+                  "x2": 80,
+                  "y2": 120
+                },
+                {
+                  "id": "study0",
+                  "x1": 550,
+                  "y1": 120,
+                  "x2": 600,
+                  "y2": 120
+                },
+                {
+                  "id": "study1",
+                  "x1": 600,
+                  "y1": 120,
+                  "x2": 650,
+                  "y2": 120
+                },
+                {
+                  "id": "study2",
+                  "x1": 650,
+                  "y1": 120,
+                  "x2": 700,
+                  "y2": 120
+                },
+                {
+                  "id": "study3",
+                  "x1": 700,
+                  "y1": 120,
+                  "x2": 900,
+                  "y2": 120
+                },
+                {
+                  "id": "study4",
+                  "x1": 900,
+                  "y1": 120,
+                  "x2": 900,
+                  "y2": 420
+                },
+                {
+                  "id": "study5",
+                  "x1": 900,
+                  "y1": 420,
+                  "x2": 550,
+                  "y2": 420
+                },
+                {
+                  "id": "study6",
+                  "x1": 550,
+                  "y1": 420,
+                  "x2": 550,
+                  "y2": 120
+                }
+              ],
+              "areas": [
+                {
+                  "id": "kitchen",
+                  "name": "Kitchen",
+                  "points": [
+                    {
+                      "x": 80,
+                      "y": 120
+                    },
+                    {
+                      "x": 460,
+                      "y": 120
+                    },
+                    {
+                      "x": 460,
+                      "y": 260
+                    },
+                    {
+                      "x": 360,
+                      "y": 260
+                    },
+                    {
+                      "x": 360,
+                      "y": 420
+                    },
+                    {
+                      "x": 80,
+                      "y": 420
+                    }
+                  ],
+                  "color": "#f5dec0",
+                  "showName": true,
+                  "labelSize": 14
+                },
+                {
+                  "id": "study",
+                  "name": "Study",
+                  "points": [
+                    {
+                      "x": 550,
+                      "y": 120
+                    },
+                    {
+                      "x": 600,
+                      "y": 120
+                    },
+                    {
+                      "x": 650,
+                      "y": 120
+                    },
+                    {
+                      "x": 700,
+                      "y": 120
+                    },
+                    {
+                      "x": 900,
+                      "y": 120
+                    },
+                    {
+                      "x": 900,
+                      "y": 420
+                    },
+                    {
+                      "x": 550,
+                      "y": 420
+                    }
+                  ],
+                  "color": "#cce5e1",
+                  "showName": true,
+                  "labelSize": 14
+                }
+              ],
+              "openings": [],
+              "furniture": [],
+              "trackers": [],
+              "texts": [],
+              "items": [
+                {
+                  "id": "temp",
+                  "entity": "sensor.living_area_temperature",
+                  "x": 190,
+                  "y": 340,
+                  "display": "icon",
+                  "badgeContent": "value",
+                  "size": 38,
+                  "labelSize": 14,
+                  "name": "Temperature",
+                  "showName": true,
+                  "showState": false
+                },
+                {
+                  "id": "humid",
+                  "entity": "sensor.living_area_humidity",
+                  "x": 750,
+                  "y": 340,
+                  "display": "icon",
+                  "badgeContent": "value",
+                  "size": 38,
+                  "labelSize": 14,
+                  "name": "Humidity",
+                  "showName": true,
+                  "showState": false
+                }
+              ]
+            }
+          ],
+          "title": "Readable labels in a small card",
+          "overlayMinWidth": 800
+        }
+      ]
+    },
+    {
+      "title": "Room labels",
+      "path": "labels",
+      "type": "panel",
+      "cards": [
+        {
+          "type": "custom:easy-floorplan-card",
+          "width": 980,
+          "height": 540,
+          "overlayScale": "plan",
+          "background": "#fafaf7",
+          "floors": [
+            {
+              "id": "ground",
+              "name": "Ground floor",
+              "walls": [
+                {
+                  "id": "kitchen0",
+                  "x1": 80,
+                  "y1": 120,
+                  "x2": 460,
+                  "y2": 120
+                },
+                {
+                  "id": "kitchen1",
+                  "x1": 460,
+                  "y1": 120,
+                  "x2": 460,
+                  "y2": 260
+                },
+                {
+                  "id": "kitchen2",
+                  "x1": 460,
+                  "y1": 260,
+                  "x2": 360,
+                  "y2": 260
+                },
+                {
+                  "id": "kitchen3",
+                  "x1": 360,
+                  "y1": 260,
+                  "x2": 360,
+                  "y2": 420
+                },
+                {
+                  "id": "kitchen4",
+                  "x1": 360,
+                  "y1": 420,
+                  "x2": 80,
+                  "y2": 420
+                },
+                {
+                  "id": "kitchen5",
+                  "x1": 80,
+                  "y1": 420,
+                  "x2": 80,
+                  "y2": 120
+                },
+                {
+                  "id": "study0",
+                  "x1": 550,
+                  "y1": 120,
+                  "x2": 600,
+                  "y2": 120
+                },
+                {
+                  "id": "study1",
+                  "x1": 600,
+                  "y1": 120,
+                  "x2": 650,
+                  "y2": 120
+                },
+                {
+                  "id": "study2",
+                  "x1": 650,
+                  "y1": 120,
+                  "x2": 700,
+                  "y2": 120
+                },
+                {
+                  "id": "study3",
+                  "x1": 700,
+                  "y1": 120,
+                  "x2": 900,
+                  "y2": 120
+                },
+                {
+                  "id": "study4",
+                  "x1": 900,
+                  "y1": 120,
+                  "x2": 900,
+                  "y2": 420
+                },
+                {
+                  "id": "study5",
+                  "x1": 900,
+                  "y1": 420,
+                  "x2": 550,
+                  "y2": 420
+                },
+                {
+                  "id": "study6",
+                  "x1": 550,
+                  "y1": 420,
+                  "x2": 550,
+                  "y2": 120
+                }
+              ],
+              "areas": [
+                {
+                  "id": "kitchen",
+                  "name": "Kitchen",
+                  "points": [
+                    {
+                      "x": 80,
+                      "y": 120
+                    },
+                    {
+                      "x": 460,
+                      "y": 120
+                    },
+                    {
+                      "x": 460,
+                      "y": 260
+                    },
+                    {
+                      "x": 360,
+                      "y": 260
+                    },
+                    {
+                      "x": 360,
+                      "y": 420
+                    },
+                    {
+                      "x": 80,
+                      "y": 420
+                    }
+                  ],
+                  "color": "#f5dec0",
+                  "showName": true,
+                  "labelSize": 20
+                },
+                {
+                  "id": "study",
+                  "name": "Study",
+                  "points": [
+                    {
+                      "x": 550,
+                      "y": 120
+                    },
+                    {
+                      "x": 600,
+                      "y": 120
+                    },
+                    {
+                      "x": 650,
+                      "y": 120
+                    },
+                    {
+                      "x": 700,
+                      "y": 120
+                    },
+                    {
+                      "x": 900,
+                      "y": 120
+                    },
+                    {
+                      "x": 900,
+                      "y": 420
+                    },
+                    {
+                      "x": 550,
+                      "y": 420
+                    }
+                  ],
+                  "color": "#cce5e1",
+                  "showName": true,
+                  "labelSize": 20
+                }
+              ],
+              "openings": [],
+              "furniture": [],
+              "trackers": [],
+              "texts": [],
+              "items": []
+            }
+          ],
+          "title": "Room labels follow floor area"
+        }
+      ]
+    }
+  ]
+}
